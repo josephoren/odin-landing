@@ -16,7 +16,11 @@
 
 .footer {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px 0px;
+    font-size: 18px;
 }
 
 .hero-title {
@@ -53,6 +57,7 @@ ul {
 .hero-top {
     display: flex;
     justify-content: space-between;
+    margin-top: 15px;
 }
 
 .hero-bottom {
@@ -70,15 +75,9 @@ ul {
 }
 
 .information {
-    border: 2px solid black;
-}
-
-.quote {
-    border: 2px solid black;
-}
-
-.action {
-    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px
 }
 
 .content {
@@ -87,8 +86,110 @@ ul {
 }
 
 #head-img {
-    width: 500px;
+    width: 900px;
     height: 200px;
     margin: 70px 0px;
     border: 2px solid white;
+    max-width: 100%;
+}
+
+.info-images {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+#info-img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #1F2937;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#content-text {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.img-description {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.info-images-1,
+.info-images-2,
+.info-images-3,
+.info-images-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-desc {
+    padding-top: 5px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.quote-section {
+    display: flex;
+    background-color: #E5E7Eb;
+    justify-content: space-around;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.quote {
+    display: flex;
+    font-size: 30px;
+    font-style: italic;
+    width: 900px;
+    color: #1F2937;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-right: 40px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+    background-color: #3882f6;
+    margin: 50px 140px;
+    border-radius: 4px;
+}
+
+.call-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    gap: 5px;
+    justify-content: center;
+}
+
+.action-call {
+    display: flex;
+    border-radius: 4px;
+}
+
+#sign-up {
+    border: 2px solid white;
+    border-radius: 5px;
 }
